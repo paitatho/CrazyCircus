@@ -2,9 +2,18 @@
 public class crazyCircus {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("Hello World !");
-
+		// ######### TEST DE FONCTION ############
+		
+		
+		Ordre.afficherOrdre();
+		
+		// ######### FIN TEST DE FONCTION ############
+		
+		
+		
+		// ######### Vrai code final ############
+		//Partie nouvellePartie = new Partie();
+		//nouvellePartie.start();
 	}
 
 }
