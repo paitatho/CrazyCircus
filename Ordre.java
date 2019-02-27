@@ -12,6 +12,6 @@ public enum Ordre
 		System.out.print("-------------------------------------\n");
 		System.out.print("KI : BLEU --> ROUGE    NI : BLEU ^ \n");
 		System.out.print("LO : BLEU <-- ROUGE    MA : ROUGE ^ \n");
-		System.out.print("KI : BLEU <--> ROUGE \n");
+		System.out.print("SO : BLEU <--> ROUGE \n");
 	}
 }
