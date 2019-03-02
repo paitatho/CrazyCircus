@@ -13,7 +13,7 @@ public class crazyCircus {
 //		int nb = sc.nextInt();
 //		
 //		Joueur[] joueurs = new Joueur[nb]; //Creation d'un nouveau type Joueur
-//		System.out.println("Très bien, entrez le nom des joueurs :");
+//		System.out.println("Trï¿½s bien, entrez le nom des joueurs :");
 //		
 //		//Enregistrement des joueurs
 //		for(int i=0; i<nb; ++i) {
@@ -22,8 +22,8 @@ public class crazyCircus {
 //		}
 //		
 //		Joueur.afficherJoueur();
-		
-		Etat.afficher();  //Test pour voir affichage du tableau contenant les cartes 
+		Etat etat = new Etat();
+		etat.afficher();  //Test pour voir affichage du tableau contenant les cartes 
 		
 		Ordre.afficherOrdre();
 		

@@ -24,7 +24,8 @@ public class Joueur
 		joueurs.add(nom);
 	}
 	
-	public static void afficherJoueur() {
+	public static void afficherJoueur() 
+	{
 		System.out.println(joueurs);
 	}
 	
