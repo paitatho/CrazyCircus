@@ -1,3 +1,5 @@
+import java.util.Collection;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class crazyCircus {
@@ -23,9 +25,20 @@ public class crazyCircus {
 //		
 //		Joueur.afficherJoueur();
 		Etat etat = new Etat();
-		etat.afficher();  //Test pour voir affichage du tableau contenant les cartes 
+		//etat.afficher();  //Test pour voir affichage du tableau contenant les cartes 
 		
-		Ordre.afficherOrdre();
+		Etat etat2 = new Etat(etat);
+		etat2.afficher();
+		
+		etat2.appliquerOrdre(Ordre.NI);
+		etat2.afficher();
+		//fonction pour convertir une suite d'actions en une liste d'ordre
+//		LinkedList<Ordre> o = Ordre.parse("KILOSONIMA");
+//		for(Ordre order : o) 
+//		{
+//			System.out.println(order);
+//		}
+		
 		
 		// ######### FIN TEST DE FONCTION ############
 		
